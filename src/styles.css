@@ -1,0 +1,119 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the whole application */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.App {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.App-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.App-main {
+    padding: 20px;
+}
+
+.App-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+/* Styles for TodoList component */
+.todo-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-item input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.todo-item button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-item button:hover {
+    background-color: #45a049;
+}
+
+.todo-item button.delete-btn {
+    background-color: #f44336;
+}
+
+.todo-item button.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.todo-item button.edit-btn {
+    background-color: #ffc107;
+}
+
+.todo-item button.edit-btn:hover {
+    background-color: #ffa000;
+}
+.todo-item button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item button:hover {
+    background-color: #45a049;
+}
+
+.todo-item button.delete-btn {
+    background-color: #f44336;
+}
+
+.todo-item button.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.todo-item button.edit-btn {
+    background-color: #ffc107;
+}
+
+.todo-item button.edit-btn:hover {
+    background-color: #ffa000;
+}
